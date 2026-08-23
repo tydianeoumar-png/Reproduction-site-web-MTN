@@ -1,0 +1,129 @@
+.title1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 60px;
+}
+.btn1{
+    width: 170px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top:30px;
+    transition: 0.9s;
+}
+.btn1:hover{
+    background-color: rgb(177, 156, 33);
+    border: none;
+}
+.titr-btn{
+    display: flex;
+    gap: 100px;
+    margin-left: 400px;
+}
+.image-one{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url(assets/img/IMAGE-PRINCIPALE-2.jpg);
+    background-size: cover;
+}
+.image-two{
+    width: 400px;
+    height: 190px;
+    border-radius: 30px;
+    background-image: url(assets/img/MARCHAND-2.jpg);
+    background-size:cover;
+}
+.image-three{
+    width: 400px;
+    height: 190px;
+    border-radius: 30px;
+    background-image: url(assets/img/CLIENT-2.jpg);
+    background-size:cover;
+}
+.first-section{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.esim{
+    width: 70vw;
+    height: 70vh;
+    margin-left: 14%;
+    border-radius: 20px;
+    background-image: url(assets/img/MTN-CI-eSIM2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px -150px 200px black;
+}
+.esim-one{
+    width: 350px;
+    height: 130px;
+    position: relative;
+    top: 300px;
+    margin: 100px;
+    border-radius: 25px;
+    background-color: #9baebe77;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+.btn2{
+    width: 170px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    background-color: #9baebe77;
+    transition: 0.5s;
+}
+.btn2:hover{
+    color: black;
+    background-color: white;
+}
+.mon-footer{
+    width: 98vw;
+    height: 40vh;
+    border-radius: 15px;
+    background-color: black;
+}
+.footer-p1{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.contact{
+    display: flex;
+    gap: 30px;
+}
+.socials{
+    display: flex;
+    color: yellow;
+    gap: 20px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+.socials :hover{
+    color: white;
+    text-decoration: underline yellow;
+}
+.other{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    font-size: small;
+    padding-top: 50px;
+    margin-right: 110px;
+    transition: 0.9s;
+}
+.other :hover{
+    color: yellow;
+    text-decoration: underline yellow;
+}
