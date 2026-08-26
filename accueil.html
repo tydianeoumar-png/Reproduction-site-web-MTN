@@ -1,13 +1,135 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Page d'accueil</title>
 </head>
+
 <body>
-<!-- Partie 3 Debut Koné -->
+    <header class="site-header">
+
+        <!-- Font degradé -->
+        <div class="main-header">
+            <div class="container-top">
+                <nav class="top-menu">
+                    <ul class="liste-puces">
+
+                        <li><a href="">PARTICULIER</a></li>
+                        <li><a href="">BUSINESS</a></li>
+                        <li><a href="">MOMO</a></li>
+                        <li><a href="">A PROPOS</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Hero section -->
+            <section>
+                <!-- Navigation principale (flotant sur le hero) -->
+                <div class="main-navbar">
+                    <div class="logo">
+                        <img src="assets/img/mtn-logo.png" alt="le-logo-de-mtn-cote-d'ivoire" width="95px" height="45px">
+                    </div>
+
+                    <div class="container-mainnav">
+                        <nav class="main-nav">
+                            <ul class="nav-list">
+
+                                <li><a href="">Produits & Services</a></li>
+                                <li><a href="">Assistance</a></li>
+                                <li><a href="">Vidéos Démos</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="search-box">
+                        <button>
+                            <svg xmlns="http://w3.org" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                stroke="currentcolor" stroke-width="2" stroke-linecap="round" dtroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- 2 -->
+                <div class="hero-slider">
+                    <input type="radio" name="slider" id="slide-1" checked>
+                    <input type="radio" name="slider" id="slide-2">
+                    <input type="radio" name="slider" id="slide-3">
+
+                    <div class="slides-container">
+                        <div class="slide slide1">
+                            <img src="assets/img/banière2.png" alt="banière-1" width="100%" height="auto">
+                            <a href="#" class="btn">JE M'INSCRIS</a>
+                        </div>
+
+                        <div class="slide slide2">
+                            <img src="assets/img/banière1.jpg" alt="banière-2" width="100%" height="auto">
+                            <a href="#" class="btn">VOIR LE RÉGLEMENT</a>
+                        </div>
+
+                        <div class="slide slide3">
+                            <img src="assets/img/banière3.jpeg" alt="banière-3" width="100%" height="auto">
+                            <a href="#" class="btn">Reserver</a>
+                        </div>
+                    </div>
+
+                    <div class="slider-dots-container">
+                        <div class="slider-dots">
+                            <label for="slide-1" class="dot-1"></label>
+                            <label for="slide-2" class="dot-2"></label>
+                            <label for="slide-3" class="dot-3"></label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <section>
+        <nav class="acces-rapide">
+            <ul>
+                <li>
+                    <a href=""><img src="assets/img/iconeparticulier1.png" alt="icone-particulier">
+                        <span>Particuliers</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="assets/img/iconebusiness.png" alt="icone-business">
+                        <span>Business</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="assets/img/iconemomo.png" alt="icone-momo">
+                        <span>MoMo</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="assets/img/assistance.png" alt="icone-assistance">
+                        <span>Assistance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="assets/img/market&momo.png" alt="icone-maketmomo">
+                        <span>Market by MoMo</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <!-- Partie 3 Debut Koné -->
     <div class="titr-btn">
         <h1 class="title1">Market by MoMo</h1>
         <button class="btn1">Voir plus</button>
@@ -30,7 +152,7 @@
             </div>
         </div>
     </section><br><br>
-    <hr width="70%" color="yellow" >
+    <hr width="70%" color="yellow">
     <div class="esim">
         <div class="esim-one">
             <h2>eSIM MTN CI</h2>
@@ -38,7 +160,7 @@
         </div>
     </div><br><br><br><br>
     <!-- Footer -->
-     <footer class="mon-footer">
+    <footer class="mon-footer">
         <div class="footer-p1">
             <div class="contact">
                 <p style="color: white; font-weight: bold;">Contactez-nous</p>
@@ -58,7 +180,8 @@
             <p>Engagement de MTN Côte d’Ivoire en matière d’Éthique et de Conformité en Côte d’Ivoire</p>
         </div>
         <p style="color: white; font-size: small; margin-left: 350px;">Copyright 2023 – MTN CI</p>
-     </footer>
-<!-- Partie 3 fin Koné -->
+    </footer>
+    <!-- Partie 3 fin Koné -->
 </body>
+
 </html>
