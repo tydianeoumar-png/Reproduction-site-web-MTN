@@ -290,11 +290,143 @@
             }
 
 /* OUMAR */
+
+/* Particuliers */
+.titr-btn1{
+    display: flex;
+    gap: 100px;
+    margin-left: 160px;
+    font-family: work sans;
+    justify-content: center;
+}
+.btn-z{
+    width: 250px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top:30px;
+    transition: 0.9s;
+    font-family: work sans;
+}
+.btn-z:hover{
+    background-color: #ffcb05;
+    border: none;
+}
+.image-z{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url(assets/img/telephones.jpg);
+    background-size: cover;
+    font-family: work sans;
+}
+.image-x{
+    width: 400px;
+    height: 190px;
+    border-radius: 30px;
+    background-image: url(assets/img/services-mobiles-scaled.jpg);
+    background-size: cover;
+    font-family: work sans;
+}
+.image-y{
+    width: 400px;
+    height: 190px;
+    border-radius: 30px;
+    background-image: url(assets/img/equipements-internet.png);
+    background-size:cover;
+    font-family: work sans;
+}
+/* Business */
+.titr-btn-two{
+    display: flex;
+    gap: 150px;
+    margin-left: 250px;
+    justify-content: center;
+    font-family: work sans;
+}
+.image-w{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url(assets/img/mtn-ci-EBU-Des-forfaits-Ebtreprise.png);
+    background-size: cover;
+    font-family: work sans;
+}
+.image-v{
+    width: 400px;
+    height: 190px;
+    border-radius: 30px;
+    background-image: url(assets/img/MTN-BOOSTER-02-1.jpg);
+    background-size:cover;
+    font-family: work sans;
+}
+
+/* yello */
+.yello{
+    width: 70vw;
+    height: 70vh;
+    margin-left: 14%;
+    border-radius: 20px;
+    background-image: url(assets/img/bienvenue-chez-yello.jpeg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0px -150px 200px black;
+}
+.yello-one{
+    width: 350px;
+    height: 140px;
+    position: relative;
+    top: 300px;
+    margin: 100px;
+    border-radius: 25px;
+    background-color: #9baebe77;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: work sans;
+}
+
+/* MoMo */
+.titr-btn-three{
+    display: flex;
+    gap: 170px;
+    margin-left: 280px;
+    justify-content: center;
+    font-family: work sans;
+}
+.image-u{
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    background-image: url(assets/img/momo-pricipam.jpg);
+    background-size: cover;
+    font-family: work sans;
+}
+.image-v{
+    width: 400px;
+    height: 190px;
+    border-radius: 30px;
+    background-image: url(assets/img/momo-merchant-min-e1562932511173.jpg);
+    background-size:cover;
+    font-family: work sans;
+}
+.image-t{
+    width: 400px;
+    height: 190px;
+    border-radius: 30px;
+    background-image: url(assets/img/momo_corporates-min.jpg);
+    background-size:cover;
+    font-family: work sans;
+}
+
 .title1{
     text-align: center;
     font-weight: bolder;
     font-size: 40px;
     margin-left: 60px;
+    font-family: work sans;
 }
 .btn1{
     width: 170px;
@@ -305,15 +437,18 @@
     font-size: 20px;
     margin-top:30px;
     transition: 0.9s;
+    font-family: work sans;
 }
 .btn1:hover{
-    background-color: rgb(177, 156, 33);
+    background-color: #ffcb05;
     border: none;
 }
 .titr-btn{
     display: flex;
     gap: 100px;
-    margin-left: 400px;
+    justify-content: center;
+    margin-left: 150px;
+    font-family: work sans;
 }
 .image-one{
     width: 400px;
@@ -321,6 +456,7 @@
     border-radius: 30px;
     background-image: url(assets/img/IMAGE-PRINCIPALE-2.jpg);
     background-size: cover;
+    font-family: work sans;
 }
 .image-two{
     width: 400px;
@@ -328,6 +464,7 @@
     border-radius: 30px;
     background-image: url(assets/img/MARCHAND-2.jpg);
     background-size:cover;
+    font-family: work sans;
 }
 .image-three{
     width: 400px;
@@ -335,10 +472,12 @@
     border-radius: 30px;
     background-image: url(assets/img/CLIENT-2.jpg);
     background-size:cover;
+    font-family: work sans;
 }
 .first-section{
     display: flex;
     gap: 15px;
+    font-family: work sans;
     justify-content: center;
 }
 .esim{
@@ -362,7 +501,7 @@
     text-align: center;
     color: white;
     padding: 10px;
-    
+    font-family: work sans;
 }
 .btn2{
     width: 170px;
@@ -373,6 +512,7 @@
     color: white;
     background-color: #9baebe77;
     transition: 0.5s;
+    font-family: work sans;
 }
 .btn2:hover{
     color: black;
@@ -383,7 +523,10 @@
     height: 40vh;
     border-radius: 15px;
     background-color: black;
+    font-family: work sans;
 }
+
+/* le footer */
 .footer-p1{
     display: flex;
     gap: 200px;

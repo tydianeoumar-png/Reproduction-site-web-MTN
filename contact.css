@@ -215,6 +215,27 @@
     cursor: pointer;
   }
 
+  /* Apres formulaire */
+
+  .after-formulaire{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-family: work sans;
+  }
+
+/* Partie coordonnées */
+.coordonnees{
+    width: 30vw;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: #ffcb05;
+    padding: 30px;
+    position: relative;
+    top: -40px;
+    font-family: work sans;
+}
+
 
 
 
@@ -235,6 +256,7 @@
     height: 40vh;
     border-radius: 15px;
     background-color: black;
+    font-family: work sans;
 }
 .footer-p1{
     display: flex;
