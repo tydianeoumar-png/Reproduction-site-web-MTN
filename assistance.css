@@ -1,0 +1,43 @@
+/* CSS footer */
+.mon-footer{
+    width: 98vw;
+    height: 40vh;
+    border-radius: 15px;
+    background-color: black;
+    font-family: work sans;
+}
+.footer-p1{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    padding-top: 50px;
+}
+.contact{
+    display: flex;
+    gap: 30px;
+}
+.socials{
+    display: flex;
+    color: yellow;
+    gap: 20px;
+    font-weight: bold;
+    transition: 0.9s;
+}
+.socials :hover{
+    color: white;
+    text-decoration: underline yellow;
+}
+.other{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    font-size: small;
+    padding-top: 50px;
+    margin-right: 110px;
+    transition: 0.9s;
+}
+.other :hover{
+    color: yellow;
+    text-decoration: underline yellow;
+}
