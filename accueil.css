@@ -93,6 +93,11 @@
         left: 1200px;
     }
 
+            .search-btn {
+                border: none;
+                background: transparent;
+            }
+
 
 
     .hero-slider {
