@@ -614,31 +614,34 @@
         background-color: white;
     }
 
+     /* le footer */
+
     .mon-footer {
-        width: 98vw;
+        width: 99vw;
         height: 40vh;
         border-radius: 15px;
         background-color: black;
         font-family: work sans;
+        font-size: 20px;
     }
 
-    /* le footer */
     .footer-p1 {
         display: flex;
-        gap: 200px;
+        gap: 300px;
         justify-content: center;
-        padding-top: 50px;
+        padding-top: 100px;
     }
 
     .contact {
         display: flex;
         gap: 30px;
+        margin-left: -120px;
     }
 
     .socials {
         display: flex;
         color: yellow;
-        gap: 20px;
+        gap: 25px;
         font-weight: bold;
         transition: 0.9s;
     }
@@ -655,8 +658,10 @@
         gap: 20px;
         font-size: small;
         padding-top: 50px;
-        margin-right: 10px;
+        margin-right: 270px;
         transition: 0.9s;
+        font-family: work sans;
+        font-size: 15px;
     }
 
     .other :hover {
